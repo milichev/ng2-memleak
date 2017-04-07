@@ -3,8 +3,8 @@ import {Observable, Subject, BehaviorSubject} from 'rxjs/Rx';
 import {Http} from '@angular/http';
 import * as _ from 'lodash';
 
-const peopleServiceUrl = require('../response.project.json');
-const projectServiceUrl = require('../response.people.json');
+const peopleServiceUrl = require('../response.people.json');
+const projectServiceUrl = require('../response.project.json');
 // const peopleServiceUrl = 'http://beta.json-generator.com/api/json/get/V1n9lzs2M?indent=2';
 // const projectServiceUrl = 'http://beta.json-generator.com/api/json/get/4kuQPQjhM?indent=2';
 
