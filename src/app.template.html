@@ -1,0 +1,7 @@
+<h1>Memory leak test: {{buildDesc}}</h1>
+
+<div>Request count: {{requestCount | async}}</div>
+
+<label><input type="checkbox" (change)="setPolling($event.target.checked)"/>Polling</label>
+
+<pre [textContent]="people | async | json"></pre>
